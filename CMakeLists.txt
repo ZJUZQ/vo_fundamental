@@ -12,8 +12,9 @@ list(APPEND SOURCEFILES
 	src/coordinate_transform.cpp
 	src/bundle_adjustment_ceres.cpp
 	src/bundle_adjustment_g2o.cpp
-	src/ICP_SVD.cpp
-	src/ICP_BA_ceres.cpp)
+	src/3d3d_SVD.cpp
+	src/3d3d_ICP_ceres.cpp
+	src/3d3d_ICP_g2o.cpp)
 
 # 添加cmake模块以使用g2o
 list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
@@ -37,5 +38,5 @@ target_link_libraries(zhou ${OpenCV_LIBS} ${CERES_LIBRARIES} ${CSPARSE_LIBRARIES
 ###########################################################
 # test file
 
-add_executable(test_pose_3d2d test/test_pose_3d2d.cpp)
-target_link_libraries(test_pose_3d2d zhou)
+add_executable(test_pose_3d3d_ICP_g2o test/test_pose_3d3d_ICP_g2o.cpp)
+target_link_libraries(test_pose_3d3d_ICP_g2o zhou)

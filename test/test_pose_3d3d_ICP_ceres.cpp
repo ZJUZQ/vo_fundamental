@@ -6,8 +6,8 @@ using namespace std;
 #include <opencv2/calib3d/calib3d.hpp>
 #include "../include/feature_match.hpp"
 #include "../include/coordinate_transform.hpp"
-#include "../include/ICP_SVD.hpp"
-#include "../include/ICP_BA_ceres.hpp"
+#include "../include/3d3d_SVD.hpp"
+#include "../include/3d3d_ICP_ceres.hpp"
 
 int main(int argc, char** argv){
 	if(argc != 5){
@@ -48,13 +48,13 @@ int main(int argc, char** argv){
 
 	cv::Mat R, t;
 
-	ICP_SVD(pts1, pts2, R, t); // pts1 = R * pts2 + t
+	_3d3d_SVD(pts1, pts2, R, t); // pts1 = R * pts2 + t
 
 	cout << "ICP via SVD results: " << endl;
 	cout << "R = \n" << R << endl;
 	cout << "t = \n" << t << endl;
 
-	ICP_BA_ceres(pts1, pts2, R, t);
+	_3d3d_ICP_ceres(pts1, pts2, R, t);
 
 	cout << "ICP via BA_ceres results: " << endl;
 	cout << "R = \n" << R << endl;

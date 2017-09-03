@@ -1,4 +1,4 @@
-#include "../include/ICP_BA_ceres.hpp"
+#include "../include/3d3d_ICP_ceres.hpp"
 
 struct ReprojectionError_ICP_BA{
 
@@ -29,8 +29,8 @@ private:
 	const double pt1_z;
 };
 
-void ICP_BA_ceres(const std::vector<cv::Point3f>& pts1,
-			 const std::vector<cv::Point3f>& pts2,
+void _3d3d_ICP_ceres(const std::vector<cv::Point3d>& pts1,
+			 const std::vector<cv::Point3d>& pts2,
 			 cv::Mat& R,
 			 cv::Mat& t){
 
