@@ -1,0 +1,4 @@
+/home/vortex/zhou_temp_test/opencv_test/slambook_ch7/build/CMakeFiles/edit_cache.dir
+/home/vortex/zhou_temp_test/opencv_test/slambook_ch7/build/CMakeFiles/rebuild_cache.dir
+/home/vortex/zhou_temp_test/opencv_test/slambook_ch7/build/CMakeFiles/test_pose_3d2d.dir
+/home/vortex/zhou_temp_test/opencv_test/slambook_ch7/build/CMakeFiles/zhou.dir
