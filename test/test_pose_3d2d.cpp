@@ -6,8 +6,8 @@ using namespace std;
 #include <opencv2/calib3d/calib3d.hpp>
 #include "../include/find_features_and_match.hpp"
 #include "../include/coordinate_transform.hpp"
-#include "../include/bundle_adjustment_ceres.hpp"
-#include "../include/bundle_adjustment_g2o.hpp"
+#include "../include/3d2d_BA_ceres.hpp"
+#include "../include/3d2d_BA_g2o.hpp"
 
 int main(int argc, char** argv){
 	if(argc != 4){

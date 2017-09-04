@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named zhou
+
+# Build rule for target.
+zhou: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zhou
+.PHONY : zhou
+
+# fast build rule for target.
+zhou/fast:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/build
+.PHONY : zhou/fast
+
+#=============================================================================
+# Target rules for targets named test_direct_sparse
+
+# Build rule for target.
+test_direct_sparse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_direct_sparse
+.PHONY : test_direct_sparse
+
+# fast build rule for target.
+test_direct_sparse/fast:
+	$(MAKE) -f CMakeFiles/test_direct_sparse.dir/build.make CMakeFiles/test_direct_sparse.dir/build
+.PHONY : test_direct_sparse/fast
+
+#=============================================================================
 # Target rules for targets named test_pose_3d3d_ICP_g2o
 
 # Build rule for target.
@@ -124,17 +150,71 @@ test_pose_3d3d_ICP_g2o/fast:
 .PHONY : test_pose_3d3d_ICP_g2o/fast
 
 #=============================================================================
-# Target rules for targets named zhou
+# Target rules for targets named test_useLK
 
 # Build rule for target.
-zhou: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zhou
-.PHONY : zhou
+test_useLK: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_useLK
+.PHONY : test_useLK
 
 # fast build rule for target.
-zhou/fast:
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/build
-.PHONY : zhou/fast
+test_useLK/fast:
+	$(MAKE) -f CMakeFiles/test_useLK.dir/build.make CMakeFiles/test_useLK.dir/build
+.PHONY : test_useLK/fast
+
+src/3d2d_BA_ceres.o: src/3d2d_BA_ceres.cpp.o
+
+.PHONY : src/3d2d_BA_ceres.o
+
+# target to build an object file
+src/3d2d_BA_ceres.cpp.o:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o
+.PHONY : src/3d2d_BA_ceres.cpp.o
+
+src/3d2d_BA_ceres.i: src/3d2d_BA_ceres.cpp.i
+
+.PHONY : src/3d2d_BA_ceres.i
+
+# target to preprocess a source file
+src/3d2d_BA_ceres.cpp.i:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.i
+.PHONY : src/3d2d_BA_ceres.cpp.i
+
+src/3d2d_BA_ceres.s: src/3d2d_BA_ceres.cpp.s
+
+.PHONY : src/3d2d_BA_ceres.s
+
+# target to generate assembly for a file
+src/3d2d_BA_ceres.cpp.s:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.s
+.PHONY : src/3d2d_BA_ceres.cpp.s
+
+src/3d2d_BA_g2o.o: src/3d2d_BA_g2o.cpp.o
+
+.PHONY : src/3d2d_BA_g2o.o
+
+# target to build an object file
+src/3d2d_BA_g2o.cpp.o:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o
+.PHONY : src/3d2d_BA_g2o.cpp.o
+
+src/3d2d_BA_g2o.i: src/3d2d_BA_g2o.cpp.i
+
+.PHONY : src/3d2d_BA_g2o.i
+
+# target to preprocess a source file
+src/3d2d_BA_g2o.cpp.i:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.i
+.PHONY : src/3d2d_BA_g2o.cpp.i
+
+src/3d2d_BA_g2o.s: src/3d2d_BA_g2o.cpp.s
+
+.PHONY : src/3d2d_BA_g2o.s
+
+# target to generate assembly for a file
+src/3d2d_BA_g2o.cpp.s:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.s
+.PHONY : src/3d2d_BA_g2o.cpp.s
 
 src/3d3d_ICP_ceres.o: src/3d3d_ICP_ceres.cpp.o
 
@@ -217,60 +297,6 @@ src/3d3d_SVD.cpp.s:
 	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d3d_SVD.cpp.s
 .PHONY : src/3d3d_SVD.cpp.s
 
-src/bundle_adjustment_ceres.o: src/bundle_adjustment_ceres.cpp.o
-
-.PHONY : src/bundle_adjustment_ceres.o
-
-# target to build an object file
-src/bundle_adjustment_ceres.cpp.o:
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o
-.PHONY : src/bundle_adjustment_ceres.cpp.o
-
-src/bundle_adjustment_ceres.i: src/bundle_adjustment_ceres.cpp.i
-
-.PHONY : src/bundle_adjustment_ceres.i
-
-# target to preprocess a source file
-src/bundle_adjustment_ceres.cpp.i:
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.i
-.PHONY : src/bundle_adjustment_ceres.cpp.i
-
-src/bundle_adjustment_ceres.s: src/bundle_adjustment_ceres.cpp.s
-
-.PHONY : src/bundle_adjustment_ceres.s
-
-# target to generate assembly for a file
-src/bundle_adjustment_ceres.cpp.s:
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.s
-.PHONY : src/bundle_adjustment_ceres.cpp.s
-
-src/bundle_adjustment_g2o.o: src/bundle_adjustment_g2o.cpp.o
-
-.PHONY : src/bundle_adjustment_g2o.o
-
-# target to build an object file
-src/bundle_adjustment_g2o.cpp.o:
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o
-.PHONY : src/bundle_adjustment_g2o.cpp.o
-
-src/bundle_adjustment_g2o.i: src/bundle_adjustment_g2o.cpp.i
-
-.PHONY : src/bundle_adjustment_g2o.i
-
-# target to preprocess a source file
-src/bundle_adjustment_g2o.cpp.i:
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.i
-.PHONY : src/bundle_adjustment_g2o.cpp.i
-
-src/bundle_adjustment_g2o.s: src/bundle_adjustment_g2o.cpp.s
-
-.PHONY : src/bundle_adjustment_g2o.s
-
-# target to generate assembly for a file
-src/bundle_adjustment_g2o.cpp.s:
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.s
-.PHONY : src/bundle_adjustment_g2o.cpp.s
-
 src/coordinate_transform.o: src/coordinate_transform.cpp.o
 
 .PHONY : src/coordinate_transform.o
@@ -297,6 +323,33 @@ src/coordinate_transform.s: src/coordinate_transform.cpp.s
 src/coordinate_transform.cpp.s:
 	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/coordinate_transform.cpp.s
 .PHONY : src/coordinate_transform.cpp.s
+
+src/direct_sparse_g2o.o: src/direct_sparse_g2o.cpp.o
+
+.PHONY : src/direct_sparse_g2o.o
+
+# target to build an object file
+src/direct_sparse_g2o.cpp.o:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o
+.PHONY : src/direct_sparse_g2o.cpp.o
+
+src/direct_sparse_g2o.i: src/direct_sparse_g2o.cpp.i
+
+.PHONY : src/direct_sparse_g2o.i
+
+# target to preprocess a source file
+src/direct_sparse_g2o.cpp.i:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.i
+.PHONY : src/direct_sparse_g2o.cpp.i
+
+src/direct_sparse_g2o.s: src/direct_sparse_g2o.cpp.s
+
+.PHONY : src/direct_sparse_g2o.s
+
+# target to generate assembly for a file
+src/direct_sparse_g2o.cpp.s:
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.s
+.PHONY : src/direct_sparse_g2o.cpp.s
 
 src/find_features_and_match.o: src/find_features_and_match.cpp.o
 
@@ -379,6 +432,33 @@ src/triangulation.cpp.s:
 	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/triangulation.cpp.s
 .PHONY : src/triangulation.cpp.s
 
+test/test_direct_sparse.o: test/test_direct_sparse.cpp.o
+
+.PHONY : test/test_direct_sparse.o
+
+# target to build an object file
+test/test_direct_sparse.cpp.o:
+	$(MAKE) -f CMakeFiles/test_direct_sparse.dir/build.make CMakeFiles/test_direct_sparse.dir/test/test_direct_sparse.cpp.o
+.PHONY : test/test_direct_sparse.cpp.o
+
+test/test_direct_sparse.i: test/test_direct_sparse.cpp.i
+
+.PHONY : test/test_direct_sparse.i
+
+# target to preprocess a source file
+test/test_direct_sparse.cpp.i:
+	$(MAKE) -f CMakeFiles/test_direct_sparse.dir/build.make CMakeFiles/test_direct_sparse.dir/test/test_direct_sparse.cpp.i
+.PHONY : test/test_direct_sparse.cpp.i
+
+test/test_direct_sparse.s: test/test_direct_sparse.cpp.s
+
+.PHONY : test/test_direct_sparse.s
+
+# target to generate assembly for a file
+test/test_direct_sparse.cpp.s:
+	$(MAKE) -f CMakeFiles/test_direct_sparse.dir/build.make CMakeFiles/test_direct_sparse.dir/test/test_direct_sparse.cpp.s
+.PHONY : test/test_direct_sparse.cpp.s
+
 test/test_pose_3d3d_ICP_g2o.o: test/test_pose_3d3d_ICP_g2o.cpp.o
 
 .PHONY : test/test_pose_3d3d_ICP_g2o.o
@@ -406,6 +486,33 @@ test/test_pose_3d3d_ICP_g2o.cpp.s:
 	$(MAKE) -f CMakeFiles/test_pose_3d3d_ICP_g2o.dir/build.make CMakeFiles/test_pose_3d3d_ICP_g2o.dir/test/test_pose_3d3d_ICP_g2o.cpp.s
 .PHONY : test/test_pose_3d3d_ICP_g2o.cpp.s
 
+test/test_useLK.o: test/test_useLK.cpp.o
+
+.PHONY : test/test_useLK.o
+
+# target to build an object file
+test/test_useLK.cpp.o:
+	$(MAKE) -f CMakeFiles/test_useLK.dir/build.make CMakeFiles/test_useLK.dir/test/test_useLK.cpp.o
+.PHONY : test/test_useLK.cpp.o
+
+test/test_useLK.i: test/test_useLK.cpp.i
+
+.PHONY : test/test_useLK.i
+
+# target to preprocess a source file
+test/test_useLK.cpp.i:
+	$(MAKE) -f CMakeFiles/test_useLK.dir/build.make CMakeFiles/test_useLK.dir/test/test_useLK.cpp.i
+.PHONY : test/test_useLK.cpp.i
+
+test/test_useLK.s: test/test_useLK.cpp.s
+
+.PHONY : test/test_useLK.s
+
+# target to generate assembly for a file
+test/test_useLK.cpp.s:
+	$(MAKE) -f CMakeFiles/test_useLK.dir/build.make CMakeFiles/test_useLK.dir/test/test_useLK.cpp.s
+.PHONY : test/test_useLK.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -413,9 +520,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... zhou"
+	@echo "... test_direct_sparse"
 	@echo "... test_pose_3d3d_ICP_g2o"
 	@echo "... rebuild_cache"
-	@echo "... zhou"
+	@echo "... test_useLK"
+	@echo "... src/3d2d_BA_ceres.o"
+	@echo "... src/3d2d_BA_ceres.i"
+	@echo "... src/3d2d_BA_ceres.s"
+	@echo "... src/3d2d_BA_g2o.o"
+	@echo "... src/3d2d_BA_g2o.i"
+	@echo "... src/3d2d_BA_g2o.s"
 	@echo "... src/3d3d_ICP_ceres.o"
 	@echo "... src/3d3d_ICP_ceres.i"
 	@echo "... src/3d3d_ICP_ceres.s"
@@ -425,15 +540,12 @@ help:
 	@echo "... src/3d3d_SVD.o"
 	@echo "... src/3d3d_SVD.i"
 	@echo "... src/3d3d_SVD.s"
-	@echo "... src/bundle_adjustment_ceres.o"
-	@echo "... src/bundle_adjustment_ceres.i"
-	@echo "... src/bundle_adjustment_ceres.s"
-	@echo "... src/bundle_adjustment_g2o.o"
-	@echo "... src/bundle_adjustment_g2o.i"
-	@echo "... src/bundle_adjustment_g2o.s"
 	@echo "... src/coordinate_transform.o"
 	@echo "... src/coordinate_transform.i"
 	@echo "... src/coordinate_transform.s"
+	@echo "... src/direct_sparse_g2o.o"
+	@echo "... src/direct_sparse_g2o.i"
+	@echo "... src/direct_sparse_g2o.s"
 	@echo "... src/find_features_and_match.o"
 	@echo "... src/find_features_and_match.i"
 	@echo "... src/find_features_and_match.s"
@@ -443,9 +555,15 @@ help:
 	@echo "... src/triangulation.o"
 	@echo "... src/triangulation.i"
 	@echo "... src/triangulation.s"
+	@echo "... test/test_direct_sparse.o"
+	@echo "... test/test_direct_sparse.i"
+	@echo "... test/test_direct_sparse.s"
 	@echo "... test/test_pose_3d3d_ICP_g2o.o"
 	@echo "... test/test_pose_3d3d_ICP_g2o.i"
 	@echo "... test/test_pose_3d3d_ICP_g2o.s"
+	@echo "... test/test_useLK.o"
+	@echo "... test/test_useLK.i"
+	@echo "... test/test_useLK.s"
 .PHONY : help
 
 

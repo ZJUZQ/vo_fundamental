@@ -1,5 +1,5 @@
-#ifndef BUNDLE_ADJUSTMENT_G2O_H
-#define BUNDLE_ADJUSTMENT_G2O_H
+#ifndef _3D2D_BA_G2O_H
+#define _3D2D_BA_G2O_H
 
 #include <iostream>
 #include <vector>

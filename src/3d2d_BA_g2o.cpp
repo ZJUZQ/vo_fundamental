@@ -1,4 +1,4 @@
-#include "../include/bundle_adjustment_g2o.hpp"
+#include "../include/3d2d_BA_g2o.hpp"
 
 void bundle_adjustment_g2o(const std::vector<cv::Point3f> pts_3d,
 						   const std::vector<cv::Point2f> pts_2d,

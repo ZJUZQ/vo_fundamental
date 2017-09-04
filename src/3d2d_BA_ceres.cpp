@@ -1,5 +1,5 @@
 
-#include "../include/bundle_adjustment_ceres.hpp"
+#include "../include/3d2d_BA_ceres.hpp"
 
 struct ReprojectionError {
 	ReprojectionError(double observed_x, double observed_y, cv::Mat K) 

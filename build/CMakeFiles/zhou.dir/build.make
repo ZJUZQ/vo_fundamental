@@ -153,52 +153,52 @@ CMakeFiles/zhou.dir/src/coordinate_transform.cpp.o.provides: CMakeFiles/zhou.dir
 CMakeFiles/zhou.dir/src/coordinate_transform.cpp.o.provides.build: CMakeFiles/zhou.dir/src/coordinate_transform.cpp.o
 
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o: CMakeFiles/zhou.dir/flags.make
-CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o: ../src/bundle_adjustment_ceres.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o -c /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/bundle_adjustment_ceres.cpp
+CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o: CMakeFiles/zhou.dir/flags.make
+CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o: ../src/3d2d_BA_ceres.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o -c /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/3d2d_BA_ceres.cpp
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/bundle_adjustment_ceres.cpp > CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.i
+CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/3d2d_BA_ceres.cpp > CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.i
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/bundle_adjustment_ceres.cpp -o CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.s
+CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/3d2d_BA_ceres.cpp -o CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.s
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.requires:
+CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.requires:
 
-.PHONY : CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.requires
+.PHONY : CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.requires
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.provides: CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.requires
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.provides.build
-.PHONY : CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.provides
+CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.provides: CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.requires
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.provides.build
+.PHONY : CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.provides
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.provides.build: CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o
+CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.provides.build: CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o
 
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o: CMakeFiles/zhou.dir/flags.make
-CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o: ../src/bundle_adjustment_g2o.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o -c /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/bundle_adjustment_g2o.cpp
+CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o: CMakeFiles/zhou.dir/flags.make
+CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o: ../src/3d2d_BA_g2o.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o -c /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/3d2d_BA_g2o.cpp
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/bundle_adjustment_g2o.cpp > CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.i
+CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/3d2d_BA_g2o.cpp > CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.i
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/bundle_adjustment_g2o.cpp -o CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.s
+CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/3d2d_BA_g2o.cpp -o CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.s
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.requires:
+CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.requires:
 
-.PHONY : CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.requires
+.PHONY : CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.requires
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.provides: CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.requires
-	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.provides.build
-.PHONY : CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.provides
+CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.provides: CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.requires
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.provides.build
+.PHONY : CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.provides
 
-CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.provides.build: CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o
+CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.provides.build: CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o
 
 
 CMakeFiles/zhou.dir/src/3d3d_SVD.cpp.o: CMakeFiles/zhou.dir/flags.make
@@ -273,110 +273,136 @@ CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o.provides: CMakeFiles/zhou.dir/src/3d3
 CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o.provides.build: CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o
 
 
+CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o: CMakeFiles/zhou.dir/flags.make
+CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o: ../src/direct_sparse_g2o.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o -c /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/direct_sparse_g2o.cpp
+
+CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/direct_sparse_g2o.cpp > CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.i
+
+CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/src/direct_sparse_g2o.cpp -o CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.s
+
+CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.requires:
+
+.PHONY : CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.requires
+
+CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.provides: CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.requires
+	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.provides.build
+.PHONY : CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.provides
+
+CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.provides.build: CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o
+
+
 # Object files for target zhou
 zhou_OBJECTS = \
 "CMakeFiles/zhou.dir/src/find_features_and_match.cpp.o" \
 "CMakeFiles/zhou.dir/src/pose_estimation_2d2d.cpp.o" \
 "CMakeFiles/zhou.dir/src/triangulation.cpp.o" \
 "CMakeFiles/zhou.dir/src/coordinate_transform.cpp.o" \
-"CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o" \
-"CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o" \
+"CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o" \
+"CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o" \
 "CMakeFiles/zhou.dir/src/3d3d_SVD.cpp.o" \
 "CMakeFiles/zhou.dir/src/3d3d_ICP_ceres.cpp.o" \
-"CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o"
+"CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o" \
+"CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o"
 
 # External object files for target zhou
 zhou_EXTERNAL_OBJECTS =
 
-libzhou.so: CMakeFiles/zhou.dir/src/find_features_and_match.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/pose_estimation_2d2d.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/triangulation.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/coordinate_transform.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/3d3d_SVD.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/3d3d_ICP_ceres.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o
-libzhou.so: CMakeFiles/zhou.dir/build.make
-libzhou.so: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
-libzhou.so: /usr/local/lib/libceres.a
-libzhou.so: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
-libzhou.so: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
-libzhou.so: /usr/lib/x86_64-linux-gnu/libglog.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libgflags.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libspqr.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libtbb.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcholmod.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libccolamd.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcamd.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcolamd.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libamd.so
-libzhou.so: /usr/lib/liblapack.so
-libzhou.so: /usr/lib/libf77blas.so
-libzhou.so: /usr/lib/libatlas.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/librt.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcxsparse.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libspqr.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libtbb.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcholmod.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libccolamd.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcamd.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcolamd.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libamd.so
-libzhou.so: /usr/lib/liblapack.so
-libzhou.so: /usr/lib/libf77blas.so
-libzhou.so: /usr/lib/libatlas.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/librt.so
-libzhou.so: /usr/lib/x86_64-linux-gnu/libcxsparse.so
-libzhou.so: CMakeFiles/zhou.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libzhou.so"
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/find_features_and_match.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/pose_estimation_2d2d.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/triangulation.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/coordinate_transform.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/3d3d_SVD.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/3d3d_ICP_ceres.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o
+../lib/libzhou.so: CMakeFiles/zhou.dir/build.make
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
+../lib/libzhou.so: /usr/local/lib/libceres.a
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
+../lib/libzhou.so: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libglog.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libgflags.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libspqr.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libtbb.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcholmod.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libccolamd.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcamd.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcolamd.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libamd.so
+../lib/libzhou.so: /usr/lib/liblapack.so
+../lib/libzhou.so: /usr/lib/libf77blas.so
+../lib/libzhou.so: /usr/lib/libatlas.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/librt.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libspqr.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libtbb.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcholmod.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libccolamd.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcamd.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcolamd.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libamd.so
+../lib/libzhou.so: /usr/lib/liblapack.so
+../lib/libzhou.so: /usr/lib/libf77blas.so
+../lib/libzhou.so: /usr/lib/libatlas.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/librt.so
+../lib/libzhou.so: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+../lib/libzhou.so: CMakeFiles/zhou.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../lib/libzhou.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zhou.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/zhou.dir/build: libzhou.so
+CMakeFiles/zhou.dir/build: ../lib/libzhou.so
 
 .PHONY : CMakeFiles/zhou.dir/build
 
@@ -384,11 +410,12 @@ CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/find_features_and_match.cp
 CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/pose_estimation_2d2d.cpp.o.requires
 CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/triangulation.cpp.o.requires
 CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/coordinate_transform.cpp.o.requires
-CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/bundle_adjustment_ceres.cpp.o.requires
-CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/bundle_adjustment_g2o.cpp.o.requires
+CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/3d2d_BA_ceres.cpp.o.requires
+CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/3d2d_BA_g2o.cpp.o.requires
 CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/3d3d_SVD.cpp.o.requires
 CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/3d3d_ICP_ceres.cpp.o.requires
 CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/3d3d_ICP_g2o.cpp.o.requires
+CMakeFiles/zhou.dir/requires: CMakeFiles/zhou.dir/src/direct_sparse_g2o.cpp.o.requires
 
 .PHONY : CMakeFiles/zhou.dir/requires
 

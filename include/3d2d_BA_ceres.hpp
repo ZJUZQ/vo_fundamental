@@ -1,5 +1,5 @@
-#ifndef BUNDLE_ADJUSTMENT_CERES_H
-#define BUNDLE_ADJUSTMENT_CERES_H
+#ifndef _3D2D_BA_CERES_H
+#define _3D2D_BA_CERES_H
 
 #include <iostream>
 #include <vector>

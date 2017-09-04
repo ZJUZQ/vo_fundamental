@@ -49,6 +49,8 @@ opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
 -
+Eigen/Dense
+-
 
 /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/include/find_features_and_match.hpp
 iostream

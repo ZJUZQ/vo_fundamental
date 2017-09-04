@@ -135,6 +135,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/test_pose_3d3d_ICP_g2o.dir/DependInfo.cmake"
   "CMakeFiles/zhou.dir/DependInfo.cmake"
+  "CMakeFiles/test_direct_sparse.dir/DependInfo.cmake"
+  "CMakeFiles/test_pose_3d3d_ICP_g2o.dir/DependInfo.cmake"
+  "CMakeFiles/test_useLK.dir/DependInfo.cmake"
   )
