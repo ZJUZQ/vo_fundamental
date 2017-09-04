@@ -53,3 +53,6 @@ target_link_libraries(test_useLK zhou)
 
 add_executable(test_direct_sparse test/test_direct_sparse.cpp)
 target_link_libraries(test_direct_sparse zhou)
+
+add_executable(test_direct_semidense test/test_direct_semidense.cpp)
+target_link_libraries(test_direct_semidense zhou)

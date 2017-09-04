@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/vortex/zhou_temp_test/opencv_test/vo_fundamental
 CMAKE_BINARY_DIR = /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/test_direct_semidense.dir
+
+# All Build rule for target.
+CMakeFiles/test_direct_semidense.dir/all: CMakeFiles/zhou.dir/all
+	$(MAKE) -f CMakeFiles/test_direct_semidense.dir/build.make CMakeFiles/test_direct_semidense.dir/depend
+	$(MAKE) -f CMakeFiles/test_direct_semidense.dir/build.make CMakeFiles/test_direct_semidense.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=1,2 "Built target test_direct_semidense"
+.PHONY : CMakeFiles/test_direct_semidense.dir/all
+
+# Include target in all.
+all: CMakeFiles/test_direct_semidense.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_direct_semidense.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_direct_semidense.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_direct_semidense.dir/rule
+
+# Convenience name for target.
+test_direct_semidense: CMakeFiles/test_direct_semidense.dir/rule
+
+.PHONY : test_direct_semidense
+
+# clean rule for target.
+CMakeFiles/test_direct_semidense.dir/clean:
+	$(MAKE) -f CMakeFiles/test_direct_semidense.dir/build.make CMakeFiles/test_direct_semidense.dir/clean
+.PHONY : CMakeFiles/test_direct_semidense.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_direct_semidense.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/zhou.dir
 
 # All Build rule for target.
 CMakeFiles/zhou.dir/all:
 	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/depend
 	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17 "Built target zhou"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19 "Built target zhou"
 .PHONY : CMakeFiles/zhou.dir/all
 
 # Include target in all.
@@ -103,7 +140,7 @@ clean: CMakeFiles/zhou.dir/clean
 CMakeFiles/test_direct_sparse.dir/all: CMakeFiles/zhou.dir/all
 	$(MAKE) -f CMakeFiles/test_direct_sparse.dir/build.make CMakeFiles/test_direct_sparse.dir/depend
 	$(MAKE) -f CMakeFiles/test_direct_sparse.dir/build.make CMakeFiles/test_direct_sparse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=1,2 "Built target test_direct_sparse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=3,4 "Built target test_direct_sparse"
 .PHONY : CMakeFiles/test_direct_sparse.dir/all
 
 # Include target in all.
@@ -140,7 +177,7 @@ clean: CMakeFiles/test_direct_sparse.dir/clean
 CMakeFiles/test_pose_3d3d_ICP_g2o.dir/all: CMakeFiles/zhou.dir/all
 	$(MAKE) -f CMakeFiles/test_pose_3d3d_ICP_g2o.dir/build.make CMakeFiles/test_pose_3d3d_ICP_g2o.dir/depend
 	$(MAKE) -f CMakeFiles/test_pose_3d3d_ICP_g2o.dir/build.make CMakeFiles/test_pose_3d3d_ICP_g2o.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=3,4 "Built target test_pose_3d3d_ICP_g2o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=5,6 "Built target test_pose_3d3d_ICP_g2o"
 .PHONY : CMakeFiles/test_pose_3d3d_ICP_g2o.dir/all
 
 # Include target in all.
@@ -177,7 +214,7 @@ clean: CMakeFiles/test_pose_3d3d_ICP_g2o.dir/clean
 CMakeFiles/test_useLK.dir/all: CMakeFiles/zhou.dir/all
 	$(MAKE) -f CMakeFiles/test_useLK.dir/build.make CMakeFiles/test_useLK.dir/depend
 	$(MAKE) -f CMakeFiles/test_useLK.dir/build.make CMakeFiles/test_useLK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=5,6 "Built target test_useLK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles --progress-num=7,8 "Built target test_useLK"
 .PHONY : CMakeFiles/test_useLK.dir/all
 
 # Include target in all.

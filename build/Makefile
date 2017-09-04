@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test_direct_semidense
+
+# Build rule for target.
+test_direct_semidense: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_direct_semidense
+.PHONY : test_direct_semidense
+
+# fast build rule for target.
+test_direct_semidense/fast:
+	$(MAKE) -f CMakeFiles/test_direct_semidense.dir/build.make CMakeFiles/test_direct_semidense.dir/build
+.PHONY : test_direct_semidense/fast
+
+#=============================================================================
 # Target rules for targets named zhou
 
 # Build rule for target.
@@ -432,6 +445,33 @@ src/triangulation.cpp.s:
 	$(MAKE) -f CMakeFiles/zhou.dir/build.make CMakeFiles/zhou.dir/src/triangulation.cpp.s
 .PHONY : src/triangulation.cpp.s
 
+test/test_direct_semidense.o: test/test_direct_semidense.cpp.o
+
+.PHONY : test/test_direct_semidense.o
+
+# target to build an object file
+test/test_direct_semidense.cpp.o:
+	$(MAKE) -f CMakeFiles/test_direct_semidense.dir/build.make CMakeFiles/test_direct_semidense.dir/test/test_direct_semidense.cpp.o
+.PHONY : test/test_direct_semidense.cpp.o
+
+test/test_direct_semidense.i: test/test_direct_semidense.cpp.i
+
+.PHONY : test/test_direct_semidense.i
+
+# target to preprocess a source file
+test/test_direct_semidense.cpp.i:
+	$(MAKE) -f CMakeFiles/test_direct_semidense.dir/build.make CMakeFiles/test_direct_semidense.dir/test/test_direct_semidense.cpp.i
+.PHONY : test/test_direct_semidense.cpp.i
+
+test/test_direct_semidense.s: test/test_direct_semidense.cpp.s
+
+.PHONY : test/test_direct_semidense.s
+
+# target to generate assembly for a file
+test/test_direct_semidense.cpp.s:
+	$(MAKE) -f CMakeFiles/test_direct_semidense.dir/build.make CMakeFiles/test_direct_semidense.dir/test/test_direct_semidense.cpp.s
+.PHONY : test/test_direct_semidense.cpp.s
+
 test/test_direct_sparse.o: test/test_direct_sparse.cpp.o
 
 .PHONY : test/test_direct_sparse.o
@@ -519,6 +559,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... test_direct_semidense"
 	@echo "... edit_cache"
 	@echo "... zhou"
 	@echo "... test_direct_sparse"
@@ -555,6 +596,9 @@ help:
 	@echo "... src/triangulation.o"
 	@echo "... src/triangulation.i"
 	@echo "... src/triangulation.s"
+	@echo "... test/test_direct_semidense.o"
+	@echo "... test/test_direct_semidense.i"
+	@echo "... test/test_direct_semidense.s"
 	@echo "... test/test_direct_sparse.o"
 	@echo "... test/test_direct_sparse.i"
 	@echo "... test/test_direct_sparse.s"

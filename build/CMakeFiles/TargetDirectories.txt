@@ -1,3 +1,4 @@
+/home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles/test_direct_semidense.dir
 /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles/edit_cache.dir
 /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles/zhou.dir
 /home/vortex/zhou_temp_test/opencv_test/vo_fundamental/build/CMakeFiles/test_direct_sparse.dir
